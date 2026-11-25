@@ -3,6 +3,7 @@ import argparse
 import csv
 import hashlib
 import json
+import re
 from pathlib import Path
 
 import numpy as np
@@ -71,6 +72,11 @@ def annotate(image, name, color):
         cv2.destroyAllWindows()
 
 
+def archive_group(name):
+    parts = re.split(r"_\d{4}_", Path(name).stem.casefold(), maxsplit=1)
+    return parts[0] if len(parts) == 2 else Path(name).stem.casefold()
+
+
 def prepare(folder):
     folder.mkdir(parents=True, exist_ok=True)
     for name in ("inputs", "masks", "conventional"):
@@ -78,11 +84,18 @@ def prepare(folder):
     state = folder / "selection.json"
     selected = json.loads(state.read_text()) if state.exists() else []
     processed = {r["file"] for r in selected}
-    for p in sorted((ROOT / "candidates").glob("*.jpg")):
+    candidates = ROOT / "candidates"
+    files = sorted(p for p in candidates.rglob("*") if p.is_file()
+                   and p.suffix.lower() in {".jpg", ".jpeg", ".png"})
+    used_groups = {archive_group(r["file"]) for r in selected if r["accepted"]}
+    used_hashes = {r["archive_sha256"] for r in selected}
+    if not files and sum(r["accepted"] for r in selected) < TARGET:
+        raise SystemExit(f"No candidate images found under {candidates}. Extract the candidate update beside this script.")
+    for p in files:
         count = sum(r["accepted"] for r in selected)
         if count == TARGET:
             break
-        if p.name in processed:
+        if p.name in processed or archive_group(p.name) in used_groups or digest(p) in used_hashes:
             continue
         color = COLORS[count % len(COLORS)]
         image = prepare_original(p, CONFIG["max_side"])
@@ -95,6 +108,9 @@ def prepare(folder):
                 output.save(folder / directory / f"{key}.png")
             row.update(key=key, color=color, seed=7600+count, hashes={
                 name: digest(folder / name / f"{key}.png") for name in outputs})
+        used_hashes.add(row["archive_sha256"])
+        if mask is not None:
+            used_groups.add(archive_group(p.name))
         selected.append(row)
         save_json(state, selected)
     return [r for r in selected if r["accepted"]]
@@ -103,7 +119,7 @@ def prepare(folder):
 def run(folder):
     rows = prepare(folder)
     if len(rows) != TARGET:
-        raise SystemExit(f"Selected {len(rows)}/20. Add fresh independent exterior photos to candidates and resume.")
+        raise SystemExit(f"Selected {len(rows)}/20. Reviewed all eligible images under {ROOT / 'candidates'}. Add another batch there and rerun with the same --out folder.")
     jobs = []
     for r in rows:
         key = r["key"]
