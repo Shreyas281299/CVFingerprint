@@ -4,3 +4,5 @@ archive
 .venv
 .hf-cache
 archive.zip
+__pycache__/
+.DS_Store

@@ -19,7 +19,9 @@ def prepare():
     edited = ROOT / "editted"
     original.mkdir(exist_ok=True)
     edited.mkdir(exist_ok=True)
-    manifest = ROOT / "pilot.csv"
+    run_data = ROOT / "run-data"
+    run_data.mkdir(exist_ok=True)
+    manifest = run_data / "pilot.csv"
     if manifest.exists():
         with manifest.open(newline="") as handle:
             return list(csv.DictReader(handle))

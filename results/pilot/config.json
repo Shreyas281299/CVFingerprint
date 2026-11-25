@@ -1,0 +1,23 @@
+{
+  "include_rejected": false,
+  "protocol": "nested grouped cross-validation",
+  "validation_selected_family": null,
+  "feature_version": "regional-v1",
+  "seed": 42,
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "c_values": [
+    0.01,
+    0.1,
+    1,
+    10
+  ],
+  "score_for_tuning": "balanced_accuracy",
+  "threshold": 0.5,
+  "versions": {
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "Pillow": "13.0.0",
+    "scikit-learn": "1.9.1"
+  }
+}
