@@ -1,0 +1,112 @@
+{
+  "model": "timbrooks/instruct-pix2pix",
+  "torch_version": "2.14.1+cu126",
+  "cuda_build": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_total_gib": 7.99560546875,
+  "system_total_ram_gib": 7.794162750244141,
+  "mode": "gpu_only",
+  "input_path": "C:\\Users\\shrey\\OneDrive\\Desktop\\CVFingerprint\\pix2pix-results\\input.png",
+  "input_size": [
+    512,
+    512
+  ],
+  "prompt": "What would it look like if it was snowing?",
+  "steps": 30,
+  "guidance_scale": 7.5,
+  "image_guidance_scale": 1.5,
+  "runs": [
+    {
+      "run": 1,
+      "warmup": true,
+      "seed": 42,
+      "inference_seconds": 7.237128400000074,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_01.png"
+    },
+    {
+      "run": 2,
+      "warmup": false,
+      "seed": 43,
+      "inference_seconds": 5.880186599999433,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_02.png"
+    },
+    {
+      "run": 3,
+      "warmup": false,
+      "seed": 44,
+      "inference_seconds": 5.413009300002159,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_03.png"
+    },
+    {
+      "run": 4,
+      "warmup": false,
+      "seed": 45,
+      "inference_seconds": 5.5940160999998625,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_04.png"
+    },
+    {
+      "run": 5,
+      "warmup": false,
+      "seed": 46,
+      "inference_seconds": 5.570203899998887,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_05.png"
+    }
+  ],
+  "load_seconds_including_any_download": 10.581340400000045,
+  "load_peak_gpu_allocated_gib": 2.5759568214416504,
+  "load_peak_gpu_reserved_gib": 2.626953125,
+  "mean_seconds_runs_2_to_5": 5.6143539750000855,
+  "estimated_8_hour_outputs_excluding_io_and_failures": 5129,
+  "status": "completed",
+  "sampled_ram_whole_benchmark": {
+    "sample_interval_seconds": 0.1,
+    "peak_process_working_set_gib": 2.033233642578125,
+    "minimum_system_available_ram_gib": 0.0036468505859375,
+    "peak_system_ram_percent": 100.0
+  }
+}

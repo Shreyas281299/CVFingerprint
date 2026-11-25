@@ -1,0 +1,833 @@
+{
+  "model": "timbrooks/instruct-pix2pix",
+  "torch_version": "2.14.1+cu126",
+  "cuda_build": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_total_gib": 7.99560546875,
+  "system_total_ram_gib": 7.794162750244141,
+  "mode": "gpu_only",
+  "input_path": "C:\\Users\\shrey\\OneDrive\\Desktop\\CVFingerprint\\pix2pix-results\\input.png",
+  "input_size": [
+    512,
+    512
+  ],
+  "prompt": "What would it look like if it was snowing?",
+  "steps": 30,
+  "guidance_scale": 7.5,
+  "image_guidance_scale": 1.5,
+  "runs": [
+    {
+      "run": 1,
+      "warmup": true,
+      "seed": 42,
+      "inference_seconds": 5.247372000001633,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_01.png"
+    },
+    {
+      "run": 2,
+      "warmup": false,
+      "seed": 43,
+      "inference_seconds": 4.262814499998058,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_02.png"
+    },
+    {
+      "run": 3,
+      "warmup": false,
+      "seed": 44,
+      "inference_seconds": 4.260037899999588,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_03.png"
+    },
+    {
+      "run": 4,
+      "warmup": false,
+      "seed": 45,
+      "inference_seconds": 4.284505100000388,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_04.png"
+    },
+    {
+      "run": 5,
+      "warmup": false,
+      "seed": 46,
+      "inference_seconds": 4.286981799999921,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_05.png"
+    },
+    {
+      "run": 6,
+      "warmup": false,
+      "seed": 47,
+      "inference_seconds": 4.281962999997631,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_06.png"
+    },
+    {
+      "run": 7,
+      "warmup": false,
+      "seed": 48,
+      "inference_seconds": 4.310887899999216,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_07.png"
+    },
+    {
+      "run": 8,
+      "warmup": false,
+      "seed": 49,
+      "inference_seconds": 4.391921899998124,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_08.png"
+    },
+    {
+      "run": 9,
+      "warmup": false,
+      "seed": 50,
+      "inference_seconds": 4.307302899997012,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_09.png"
+    },
+    {
+      "run": 10,
+      "warmup": false,
+      "seed": 51,
+      "inference_seconds": 4.309352899999794,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_10.png"
+    },
+    {
+      "run": 11,
+      "warmup": false,
+      "seed": 52,
+      "inference_seconds": 4.307095299998764,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_11.png"
+    },
+    {
+      "run": 12,
+      "warmup": false,
+      "seed": 53,
+      "inference_seconds": 4.308418199998414,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_12.png"
+    },
+    {
+      "run": 13,
+      "warmup": false,
+      "seed": 54,
+      "inference_seconds": 4.4560702000017045,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_13.png"
+    },
+    {
+      "run": 14,
+      "warmup": false,
+      "seed": 55,
+      "inference_seconds": 4.401471000001038,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_14.png"
+    },
+    {
+      "run": 15,
+      "warmup": false,
+      "seed": 56,
+      "inference_seconds": 4.315229600000748,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_15.png"
+    },
+    {
+      "run": 16,
+      "warmup": false,
+      "seed": 57,
+      "inference_seconds": 4.318042999999307,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_16.png"
+    },
+    {
+      "run": 17,
+      "warmup": false,
+      "seed": 58,
+      "inference_seconds": 4.329816100002063,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_17.png"
+    },
+    {
+      "run": 18,
+      "warmup": false,
+      "seed": 59,
+      "inference_seconds": 4.322278600000573,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_18.png"
+    },
+    {
+      "run": 19,
+      "warmup": false,
+      "seed": 60,
+      "inference_seconds": 4.3179643000003125,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_19.png"
+    },
+    {
+      "run": 20,
+      "warmup": false,
+      "seed": 61,
+      "inference_seconds": 4.312777499999356,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_20.png"
+    },
+    {
+      "run": 21,
+      "warmup": false,
+      "seed": 62,
+      "inference_seconds": 4.316370700002153,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_21.png"
+    },
+    {
+      "run": 22,
+      "warmup": false,
+      "seed": 63,
+      "inference_seconds": 4.321877099999256,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_22.png"
+    },
+    {
+      "run": 23,
+      "warmup": false,
+      "seed": 64,
+      "inference_seconds": 4.3235476999980165,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_23.png"
+    },
+    {
+      "run": 24,
+      "warmup": false,
+      "seed": 65,
+      "inference_seconds": 4.317831799999112,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_24.png"
+    },
+    {
+      "run": 25,
+      "warmup": false,
+      "seed": 66,
+      "inference_seconds": 4.317554100001871,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_25.png"
+    },
+    {
+      "run": 26,
+      "warmup": false,
+      "seed": 67,
+      "inference_seconds": 4.316852199997811,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_26.png"
+    },
+    {
+      "run": 27,
+      "warmup": false,
+      "seed": 68,
+      "inference_seconds": 4.318154600001435,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_27.png"
+    },
+    {
+      "run": 28,
+      "warmup": false,
+      "seed": 69,
+      "inference_seconds": 4.322048099998938,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_28.png"
+    },
+    {
+      "run": 29,
+      "warmup": false,
+      "seed": 70,
+      "inference_seconds": 4.316397599999618,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_29.png"
+    },
+    {
+      "run": 30,
+      "warmup": false,
+      "seed": 71,
+      "inference_seconds": 4.315356099999917,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_30.png"
+    },
+    {
+      "run": 31,
+      "warmup": false,
+      "seed": 72,
+      "inference_seconds": 4.320173899999645,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_31.png"
+    },
+    {
+      "run": 32,
+      "warmup": false,
+      "seed": 73,
+      "inference_seconds": 4.318941499997891,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_32.png"
+    },
+    {
+      "run": 33,
+      "warmup": false,
+      "seed": 74,
+      "inference_seconds": 4.328551800001151,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_33.png"
+    },
+    {
+      "run": 34,
+      "warmup": false,
+      "seed": 75,
+      "inference_seconds": 4.3321108000018285,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_34.png"
+    },
+    {
+      "run": 35,
+      "warmup": false,
+      "seed": 76,
+      "inference_seconds": 4.343653399999312,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_35.png"
+    },
+    {
+      "run": 36,
+      "warmup": false,
+      "seed": 77,
+      "inference_seconds": 4.344766099999106,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_36.png"
+    },
+    {
+      "run": 37,
+      "warmup": false,
+      "seed": 78,
+      "inference_seconds": 4.344963999999891,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_37.png"
+    },
+    {
+      "run": 38,
+      "warmup": false,
+      "seed": 79,
+      "inference_seconds": 4.322504700001446,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_38.png"
+    },
+    {
+      "run": 39,
+      "warmup": false,
+      "seed": 80,
+      "inference_seconds": 4.34451959999933,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_39.png"
+    },
+    {
+      "run": 40,
+      "warmup": false,
+      "seed": 81,
+      "inference_seconds": 4.332620400000451,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_40.png"
+    },
+    {
+      "run": 41,
+      "warmup": false,
+      "seed": 82,
+      "inference_seconds": 4.322766099998262,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_41.png"
+    },
+    {
+      "run": 42,
+      "warmup": false,
+      "seed": 83,
+      "inference_seconds": 4.322979699998541,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_42.png"
+    },
+    {
+      "run": 43,
+      "warmup": false,
+      "seed": 84,
+      "inference_seconds": 4.330931300002703,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_43.png"
+    },
+    {
+      "run": 44,
+      "warmup": false,
+      "seed": 85,
+      "inference_seconds": 4.330173999998806,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_44.png"
+    },
+    {
+      "run": 45,
+      "warmup": false,
+      "seed": 86,
+      "inference_seconds": 4.324594900001102,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_45.png"
+    },
+    {
+      "run": 46,
+      "warmup": false,
+      "seed": 87,
+      "inference_seconds": 4.350972500000353,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_46.png"
+    },
+    {
+      "run": 47,
+      "warmup": false,
+      "seed": 88,
+      "inference_seconds": 4.352541399999609,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_47.png"
+    },
+    {
+      "run": 48,
+      "warmup": false,
+      "seed": 89,
+      "inference_seconds": 4.33873820000008,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_48.png"
+    },
+    {
+      "run": 49,
+      "warmup": false,
+      "seed": 90,
+      "inference_seconds": 4.342375700001867,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_49.png"
+    },
+    {
+      "run": 50,
+      "warmup": false,
+      "seed": 91,
+      "inference_seconds": 4.363176399998338,
+      "peak_gpu_allocated_gib": 3.1805052757263184,
+      "peak_gpu_reserved_gib": 3.4609375,
+      "output_size": [
+        512,
+        512
+      ],
+      "safety_flags": [
+        false
+      ],
+      "output_file": "edit_50.png"
+    }
+  ],
+  "requested_runs": 50,
+  "load_seconds_including_any_download": 9.822950499998115,
+  "load_peak_gpu_allocated_gib": 2.5759568214416504,
+  "load_peak_gpu_reserved_gib": 2.626953125,
+  "mean_seconds_excluding_warmup": 4.326183226530405,
+  "estimated_8_hour_outputs_excluding_io_and_failures": 6657,
+  "status": "completed",
+  "sampled_ram_whole_benchmark": {
+    "sample_interval_seconds": 0.1,
+    "peak_process_working_set_gib": 2.397296905517578,
+    "minimum_system_available_ram_gib": 0.003936767578125,
+    "peak_system_ram_percent": 99.9
+  }
+}
