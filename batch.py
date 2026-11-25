@@ -152,12 +152,15 @@ def read_attempts(batch, jobs):
 
 
 def render(batch):
+    render_jobs(batch, read_batch(batch))
+
+
+def render_jobs(batch, jobs):
     from importlib.metadata import version
     os.environ.setdefault("HF_HOME", str(Path(__file__).resolve().parent / ".hf-cache"))
     import torch
     from diffusers import EulerAncestralDiscreteScheduler, StableDiffusionInstructPix2PixPipeline
 
-    jobs = read_batch(batch)
     attempts = read_attempts(batch, jobs)
     pending = [job for job in jobs if not attempts.get(job["job_id"])
                or (len(attempts[job["job_id"]]) < 2
