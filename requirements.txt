@@ -1,0 +1,13 @@
+# Install in the existing CUDA-enabled PyTorch environment on the RTX laptop.
+# Keep the platform-specific torch build already installed.
+torch
+diffusers==0.43.0
+transformers==5.24.1
+accelerate==1.16.0
+safetensors==0.8.0
+Pillow==13.0.0
+numpy
+scipy==1.18.1
+scikit-learn==1.9.1
+# Desktop build supplies the interactive mask and review windows.
+opencv-python
